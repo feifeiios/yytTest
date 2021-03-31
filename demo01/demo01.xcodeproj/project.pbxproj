@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D722578A261213AD008EBA46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7225789261213AD008EBA46 /* AppDelegate.m */; };
-		D722578D261213AD008EBA46 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D722578C261213AD008EBA46 /* SceneDelegate.m */; };
 		D7225790261213AD008EBA46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D722578F261213AD008EBA46 /* ViewController.m */; };
 		D7225793261213AD008EBA46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7225791261213AD008EBA46 /* Main.storyboard */; };
 		D7225795261213AF008EBA46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7225794261213AF008EBA46 /* Assets.xcassets */; };
@@ -39,8 +38,6 @@
 		D7225785261213AD008EBA46 /* demo01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7225788261213AD008EBA46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7225789261213AD008EBA46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D722578B261213AD008EBA46 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		D722578C261213AD008EBA46 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		D722578E261213AD008EBA46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D722578F261213AD008EBA46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D7225792261213AD008EBA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -106,8 +103,6 @@
 			children = (
 				D7225788261213AD008EBA46 /* AppDelegate.h */,
 				D7225789261213AD008EBA46 /* AppDelegate.m */,
-				D722578B261213AD008EBA46 /* SceneDelegate.h */,
-				D722578C261213AD008EBA46 /* SceneDelegate.m */,
 				D722578E261213AD008EBA46 /* ViewController.h */,
 				D722578F261213AD008EBA46 /* ViewController.m */,
 				D7225791261213AD008EBA46 /* Main.storyboard */,
@@ -269,7 +264,6 @@
 				D7225790261213AD008EBA46 /* ViewController.m in Sources */,
 				D722578A261213AD008EBA46 /* AppDelegate.m in Sources */,
 				D722579B261213AF008EBA46 /* main.m in Sources */,
-				D722578D261213AD008EBA46 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +437,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = demo01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +455,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = demo01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -9,6 +9,7 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-
+#pragma mark - window
+@property (nonatomic ,strong ) UIWindow * window;
 @end
 
